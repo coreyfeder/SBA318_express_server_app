@@ -17,15 +17,14 @@ app.use("/", router); // mount the router on the app
 // this endpoint
 const protocol = "http";
 const host = "localhost";
-const port = 5050;
+const port = 3000;
 const url = `${protocol}://${host}:${port}`;
 
 // No database for this. Just some flat files.
 // Make that sdone flat file. Dataset is ver smol.
 // No sync!! Do NOT run multiple instances!!
 const dataFilename = "APIzza.json";
-const serverPath =
-    "/Users/corey/perscholas/class/SBA318_express_server_app/SBA318_express_server_app";
+const serverPath = ".";
 const dataFile = `${serverPath}/${dataFilename}`;
 
 // SBA Note:
